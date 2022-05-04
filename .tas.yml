@@ -19,6 +19,6 @@ preRun:
 postRun:
      command:
         - node --version
-version: 2.13
+version: 1.0
 parallelism : 1
 
