@@ -9,10 +9,10 @@ blocklist:
   - "./test/new_test_suite.spec.ts##new suite 1##new-test-2##"
 postMerge:
   pattern: 
-    - "./test/**/*.spec.ts"
+    - "./test/**/*.something-wtf.spec.ts"
 preMerge:
   pattern:
-    - "./test/**/*.spec.ts"
+    - "./test/**/*.something-wtf.spec.ts"
 preRun:
      command:
         - npm ci
@@ -20,4 +20,4 @@ postRun:
      command:
         - node --version
 version: 1.0
-parallelism : 4
+parallelism : 1
