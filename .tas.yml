@@ -4,10 +4,10 @@ tier: small
 
 postMerge:
   pattern: 
-    - "./test/**/*.something-wtf.spec.ts"
+    - "./test/**/*.spec.ts"
 preMerge:
   pattern:
-    - "./test/**/*.something-wtf.spec.ts"
+    - "./test/**/*.spec.ts"
 preRun:
      command:
         - npm ci
