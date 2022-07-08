@@ -1,8 +1,6 @@
 ---
 framework: mocha
 tier: small
-blocklist:
-  - "./test/new_test_suite.spec.ts##new suite 1"
 
 postMerge:
   pattern: 
