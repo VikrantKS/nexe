@@ -15,3 +15,4 @@ preRun:
 postRun:
      command:
         - node --version
+parallelism: 8
