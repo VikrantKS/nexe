@@ -16,3 +16,4 @@ postRun:
      command:
         - node --version
 parallelism: 8
+version : 2.0.1
